@@ -25,7 +25,9 @@
 <br>
 
 ### 데이터셋
- - [kaggle sms-spam-collection-dataset] (https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset?resource=download)
- - [korean-collection-dataset] https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71788
+
+[kaggle sms-spam-collection-dataset] (https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset?resource=download)
+[korean-collection-dataset] https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71788
+
 <br>
  
