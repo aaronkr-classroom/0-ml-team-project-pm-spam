@@ -15,12 +15,17 @@
 ### 서론
  1. 스팸메일 및 문자 차단을 위한 순환신경망 모델 개발
  2. 평소 불필요한 광고수신 문자와 스팸메일의 바이러스 및 웜에 의한 컴퓨터 보안안전을 위해 효과적인 대응 모델 개발
+ 3. 뉴스나 위키, 공식문서에 등장하는 정제된 데이터가 아닌 신조어, 오탈자등 공식적인 글쓰기에서 나타나지않는 표현또한 학습
 
 <br>
 
 ### 과정
  1. spam, ham 말뭉치 데이터셋을 통해 순환신경망 학습
  2. 수집된 새로운 스팸 말뭉치 데이터를 통해 예측 수행
+ 3. 최신 NLP 처리 모델 (BERT, ELECTRA) 모델들을 파인튜닝하여 수집한 데이터셋을 학습
+ 4. 순환신경망 (LSTM, GRU, Bi-LSTM) 트랜스포머(KcELECTRA) 모델의 하이퍼 파라미터를 튜닝하며 실험
+ 5. 실험 결과를 버전에따라 시각화하여 저장, 가장좋은 모델구성을 선정
+ 6. 시각화 자료와 결과를 토대로 문서화 및 발표
 
 <br>
 
@@ -28,6 +33,7 @@
 
  - [kaggle sms-spam-collection-dataset] (https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset?resource=download)
  - [korean-collection-dataset] https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71788
+ - 유튜브 댓글 크롤링
 
 <br>
  
